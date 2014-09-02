@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Target Dummy" nameDescription="a Target Dummy" race="energy" experience="0" speed="0" manacost="0">
+	<health now="200060" max="200060"/>
+	<look type="304" corpse="9801"/>
+		<targetchange interval="60000" chance="0"/>
+		<strategy attack="100" defense="0"/>
+		<flags>
+			<flag summonable="0"/>
+			<flag attackable="1"/>
+			<flag hostile="0"/>
+			<flag illusionable="0"/>
+			<flag convinceable="0"/>
+			<flag pushable="0"/>
+			<flag canpushitems="0"/>
+			<flag staticattack="50"/>
+			<flag lightlevel="0"/>
+			<flag lightcolor="0"/>
+			<flag targetdistance="0"/>
+			<flag runonhealth="0"/>
+		</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="0" attack="0"/>
+	</attacks>
+	<defenses armor="10" defense="15">
+		<defense name="healing" interval="1000" chance="7" min="200" max="1000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element earthPercent="95"/>
+		<element holyPercent="95"/>
+		<element firePercent="95"/>
+		<element energyPercent="95"/>
+		<element physicalPercent="80"/>
+		<element icePercent="95"/>
+		<element deathPercent="95"/>
+	</elements>
+	<immunities>
+		<immunity invisible="1"/>
+		<immunity paralyze="1"/>
+	</immunities>
+	<voices interval="5500" chance="10">
+		<voice sentence="Projeto Mind!"/>
+	</voices>
+	<script> 
+	<event name="monster2"/> 
+    </script>
+</monster>

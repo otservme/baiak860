@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<npc name="Morpheu" script="data/npc/scripts/killing_quest.lua" access="3" lookdir="2" walkinterval="2000">
+<mana now="800" max="800"/>
+<health now="200" max="200"/>
+<look type="151" head="115" body="76" legs="35" feet="117" addons="2" corpse="6080"/>
+<parameters>
+<parameter key="message_greet" value="Hiho! Do you want to do a {quest}? "/>
+</parameters>
+</npc>

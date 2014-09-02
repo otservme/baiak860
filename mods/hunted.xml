@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mod name="Hunted System" version="1.0" author="Romulo Souza" contact="r_sousa_17@hotmal.com" enabled="yes">
+<description>
+</description>
+
+<config name="config_hunted"><![CDATA[
+
+--// configuracoes Basicas
+hunted_min_level = 150      -- Level minimo.
+hunted_premio = 1000        -- * (vezes) o level do player que sera morto
+
+--//// configuracoes Avancadas              
+hunted_storage = 62363
+--/////////////////////////////
+
+]]></config>
+
+<!-- ////////////////////////////////////////////////////////////////// -->
+<!-- /////////////Configure o abaixo em Interval ( em segundos )/////// -->
+<!-- ////////////////////////////////////////////////////////////////// -->
+
+
+<globalevent name="hunted" interval= "1000000" event="script"><![CDATA[
+
+
+
+function onThink(interval, lastExecution, thinkInterval)
+domodlib("config_hunted")
+local query = db.getResult("Select * FROM `players` WHERE `level` > ".. hunted_min_level .." and `online`=1 and `group_id` < 2 ORDER BY `level` DESC;")
+if query:getID() ~= -1 then
+   local name = query:getDataString("name")
+   if isPlayerOnline(name) then
+      local pid = getCreatureByName(name)
+      local premio_ =  getPlayerLevel(pid) * hunted_premio
+      doBroadcastMessage("Extra Extra! The most Wanted of the World is \""..name.."\", and if you kill he, The king pay for you ".. premio_/1000 .." k !")
+      setGlobalStorageValue(hunted_storage, getPlayerGUID(pid) )
+   end
+end
+return TRUE
+end
+
+function isPlayerOnline(name)
+players=getPlayersOnline()
+for _,pid in ipairs(players) do
+    if getCreatureName(pid):lower() == name:lower() then
+       return true
+    end
+end
+return false
+end
+]]></globalevent>
+
+
+<event type = "kill" name ="kill_hunted" event = "script"><![CDATA[
+function onKill(cid, target, lastHit)
+domodlib("config_hunted")
+if isPlayer(target) then
+   if getGlobalStorageValue(hunted_storage) == getPlayerGUID(target) then -- se passar, ele ganhou.
+      local hunted_premio_ =  getPlayerLevel(target)*hunted_premio
+      doPlayerAddMoney(cid,hunted_premio_)
+      doBroadcastMessage("The king pay to \"".. getCreatureName(cid) .."\" ".. hunted_premio_/1000 .." k for the head of \" ".. getCreatureName(target)..".")
+      setGlobalStorageValue(hunted_storage, -1)
+   end
+end
+return TRUE
+end
+]]></event>                           
+
+<event type ="login" name="login_hunted" event="script"><![CDATA[
+function onLogin(cid)
+registerCreatureEvent(cid, "kill_hunted")
+return TRUE
+end
+]]></event>
+
+
+
+</mod>

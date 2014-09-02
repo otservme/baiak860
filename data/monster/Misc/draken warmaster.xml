@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Draken Warmaster" nameDescription="a draken warmaster" race="blood" experience="2400" speed="220" manacost="0">
+<health now="4150" max="4150"/>
+<look type="334" corpse="11108"/>
+<targetchange interval="5000" chance="8"/>
+<strategy attack="100" defense="0"/>
+<flags>
+<flag summonable="0"/>
+<flag attackable="1"/>
+<flag hostile="1"/>
+<flag illusionable="1"/>
+<flag convinceable="0"/>
+<flag pushable="0"/>
+<flag canpushitems="1"/>
+<flag canpushcreatures="0"/>
+<flag targetdistance="1"/>
+<flag staticattack="90"/>
+<flag runonhealth="0"/>
+</flags>
+<attacks>
+<attack name="melee" interval="2000" skill="90" attack="50"/>
+<attack name="fire" interval="2000" chance="25" range="7" radius="4" target="1" max="-480">
+<attribute key="shootEffect" value="fire"/>
+<attribute key="areaEffect" value="firearea"/>
+</attack>
+</attacks>
+<defenses armor="16" defense="19"/>
+<elements>
+<element physicalPercent="1"/>
+<element holyPercent="20"/>
+<element deathPercent="20"/>
+<element energyPercent="30"/>
+<element icePercent="15"/>
+<element earthPercent="20"/>
+</elements>
+<immunities>
+<immunity fire="1"/>
+<immunity invisibility="1"/>
+</immunities>
+<loot>
+<item id="2152" countmax="2" chance="25000"/><!-- platinum coins -->
+<item id="2666" chancemax="22500"/><!-- meat -->
+<item id="1987" chance="100000"><!-- bag -->
+<inside>
+<item id="11305" chance="550"/><!-- drakinata-->
+<item id="11323" chance="5500"/><!-- zaoan halberd -->
+<item id="11301" chance="250"/><!-- zaoan armor -->
+<item id="11304" chance="250"/><!-- zaoan legs -->
+</inside>
+</item>
+</loot>
+</monster>

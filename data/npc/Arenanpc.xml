@@ -1,0 +1,8 @@
+<npc name="Alissow" script="data/npc/scripts/arenanpc.lua" floorchange="0" access="5">
+<health now="150" max="150"/>
+<look type="143" head="2" body="112" legs="78" feet="116" addons="2" corpse="2212"/>
+
+
+     <parameters>
+  <parameter key="message_greet" value="Hello competitor! Do you want to {fight} in the arena or shall I explain the {rules} first "/>
+    </parameters></npc>

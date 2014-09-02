@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="King Guard" script="data/npc/scripts/default.lua" walkinterval="0" floorchange="0" speed="900">
+	<health now="150" max="150"/>
+	<look type="268" head="155" body="155" legs="155" feet="30" addons="3"/>
+  <interaction range="3" idletime="60">
+
+    <interact keywords="hi" focus="1">
+      <keywords>hello</keywords>
+      <response text="Curve-se forasteiro.">
+        <action name="idle" value="1"/>
+      </response>
+    </interact>
+    <interact keywords="bye" focus="0">
+      <keywords>VIDA LONGA AO REI!</keywords>
+      <response text="VIDA LONGA AO REI!"/>
+    </interact>
+  </interaction>
+</npc>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Rashid" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="146" head="12" body="101" legs="122" feet="115" addons="2"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. I buy helmets, armors, legs, boots, weapons and shields, just {trade}."/>
+		<parameter key="shop_sellable" value="magic plate armor,2472,150000;golden legs,2470,70000;light shovel,5710,300;ancient amulet,2142,200;scarab amulet,2135,200;medusa shield,2536,9000;mastermind shield,2514,50000;demon shield,2520,30000;castle shield,2535,5000;scarab shield,2540,2000;dark shield,2521,400;tortoise shield,6131,150;bone shield,2541,80;steel boots,2645,20000;pirate boots,5462,3000;fur boots,7457,2000;crocodile boots,3982,1000;pirate knee breeches,5918,200;skull helmet,5741,40000;beholder helmet,3972,7500;devil helmet,2462,1000;pirate hat,6096,1000;ragnir helmet,7462,400;krimhorn helmet,7461,200;pirate shirt,6095,500;leopard armor,3968,1000;mammoth fur cape,7463,6000;dwarven armor,2503,20000;golden armor,2466,20000;dragon scale mail,2492,40000;dragon slayer,7402,15000;war axe,2454,9000;heavy machete,2442,90;daramanian mace,2439,110;mammoth whopper,7381,300;silver dagger,2402,500;taurus mace,7425,500;crystal sword,7449,600;furry club,7432,1000;daramanian axe,2440,1000;wyvern fang,7408,1500;brutetamers staff,7379,1500;beastslayer axe,3962,1500;dragonbone staff,7430,3000;diamond sceptre,7387,3000;lunar staff,7451,5000;sapphire hammer,7437,7000;amber staff,7426,8000" />
+		<parameter key="shop_buyable" value=""/>
+	</parameters>
+</npc>
+

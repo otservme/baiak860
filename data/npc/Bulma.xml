@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<npc name="Bulma" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0"> 
+    <health now="100" max="100"/> 
+    <look type="139" head="113" body="57" legs="95" feet="113" addons="3"/> 
+    <parameters> 
+        <parameter key="module_shop" value="1"/> 
+        <parameter key="message_greet" value="Oi |PLAYERNAME|, Eu posso vender alguns items necessarios para seus addons, diga-me {trade} para ver o que eu posso lhe vender."/>
+        <parameter key="shop_buyable" value="white piece of cloth,5909,1000;green piece of cloth,5910,1000;red piece of cloth,5911,1000;blue piece of cloth,5912,1000;brown piece of cloth,5913,1000;yellow piece of cloth,5914,1000;lizard leather,5876,1000;green dragon leather,5877,1000;minotaur leather,5878,1000;giant spider silk,5879,1000;iron ore,5880,1000;lizard scale,5881,1000;red dragon scale,5882,1000;ape fur,5883,1000;chicken feather,5890,1000;perfect behemoth fang,5893,1000;bat wing,5894,1000;fish fin,5895,1000;bear paw,5896,1000;wolf paw,5897,1000;beholder eye,5898,1000;turtle shell,5899,1000;dwarven beard,5900,1000;honeycomb,5902,1000;vampire dust,5905,1000;demon dust,5906,70000;heaven blosson,5921,1000;holy orchid,5922,1000;behemoth claw,5930,1000;demonic essence,6500,1000;shard,7290,1000;hardened bone,5925,1000;blessed wooden stake,5942,10000;enchanted chicken wing,5891,15000;piece of royal stell,5887,55000;piece of draconian stell,5889,55000;piece of hell stell,5888,55000;ankh,2193,5000;huge chunk of crude iron,5892,130000"/> 
+    </parameters> 
+</npc> 

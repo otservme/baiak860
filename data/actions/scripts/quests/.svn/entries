@@ -1,0 +1,52 @@
+8
+
+dir
+27
+http://svn.otland.net/public/forgottenserver/tags/0.3b1pl2/data/actions/scripts/quests
+http://svn.otland.net/public/forgottenserver
+
+
+
+2008-11-30T22:23:24.467187Z
+25
+elf
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+c9a09181-f965-4d2b-ae35-af08e9401e19
+
+system.lua
+file
+
+
+
+
+2008-12-08T15:38:56.140625Z
+fc3da2da9b18c389ee4071eefcd8c274
+2008-11-30T22:23:24.467187Z
+25
+elf
+
+annihilator.lua
+file
+
+
+
+
+2008-12-08T15:38:56.140625Z
+9715579f500f5e47a082b12208ed9eeb
+2008-11-30T22:23:24.467187Z
+25
+elf
+

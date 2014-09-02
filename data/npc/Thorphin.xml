@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Thorphin" script="data/npc/scripts/thorphin.lua" walkinterval="0" floorchange="0">
+	<health now="185" max="185"/>
+    <look type="66" head="0" body="0" legs="0" feet="0" addons="0"/>
+	<parameters>
+		<parameter key="message_greet" value="Bem vindo ao meu barco. Eu posso te levar para {Zao}."/>
+		<parameter key="message_farewall" value="Vida Longa e prospera!"/>
+		<parameter key="message_walkaway" value="Vida longa e prospera!"/>
+        <parameter key="keywords" value="zeronnian isles" />
+        <parameter key="keyword_reply1" value="Neste momento eu apenas posso lhe levar para {Zao}" />
+
+	</parameters>
+</npc>

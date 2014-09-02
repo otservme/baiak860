@@ -1,0 +1,12 @@
+<npc name="Varkhal" script="data/npc/scripts/bless.lua" floorchange="0" walkinterval="25" access="5" level="1" maglevel="1">
+    <health now="150" max="150"/>
+    <look type="152" head="114" body="114" legs="0" feet="0" addons="3"/>
+    <parameters>
+        <parameter key="message_greet" value="Hello |PLAYERNAME|. Eu Nao Estou Mais Vendendo Addon,para colocar addon vc deve pegar addon doll que cai de varios bixos!! Quando Pegar Basta Falar.Exemplo:{!addon mage}" />
+        <parameter key="shop_buyable" value="
+
+Amulet of Loss,2173,10000;
+
+"/>
+    </parameters>
+</npc>

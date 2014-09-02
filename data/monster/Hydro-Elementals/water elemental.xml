@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Water Elemental" nameDescription="a Water Elemental" race="undead" experience="450" species="ice" speed="280" manacost="0">
+    <health now="550" max="550"/>
+    <look type="286" corpse="2016"/>
+    <targetchange interval="20000" chance="15"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="85"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="1"/>
+    </flags>
+    <attacks>
+    <attack name="melee" interval="2000" skill="75" attack="65"/>
+    <attack name="earth" interval="2000" chance="20" range="7" target="1" min="0" max="-120">
+    <attribute key="shootEffect" value="earth"/>
+	<attribute key="areaEffect" value="smallplants"/>
+    </attack>
+    <attack name="physical" interval="1000" chance="10" range="6" target="1" min="0" max="-209">
+	<attribute key="shootEffect" value="snowball"/>
+	</attack>
+    <attack name="ice" interval="2000" chance="18" range="4" target="1" min="0" max="-103">
+    <attribute key="shootEffect" value="smallice"/>
+    </attack>
+    <attack name="physical" interval="1000" chance="9" range="7" radius="2" target="1" min="0" max="-240">
+    <attribute key="shootEffect" value="smallice"/>
+    <attribute key="areaEffect" value="giantice"/>
+    </attack>
+</attacks>
+    <defenses armor="30" defense="30">
+    <defense name="healing" interval="2000" chance="15" min="90" max="150">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+<elements>
+		<element physicalPercent="70"/>
+		<element energyPercent="-25"/>
+		<element holyPercent="20"/>
+		<element deathPercent="30"/>
+</elements>
+  <immunities>
+    <immunity ice="1"/>
+    <immunity fire="1"/>
+    <immunity poison="1"/>
+    <immunity paralyze="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  </monster>

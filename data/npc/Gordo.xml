@@ -1,0 +1,10 @@
+<npc name="Gordo" script="data/npc/scripts/gordo.lua" walkinterval="1000" floorchange="0" access="5" level="1" maglevel="1">
+    <health now="150" max="150"/>
+    <look type="151" head="98" body="0" legs="116" feet="115" addons="2"/>
+
+    <parameters>
+        <parameter key="message_greet" value="E aew |PLAYERNAME|. Vai uma bebidinha ae?" />
+        <parameter key="message_needmoremoney" value="Fiado so amanha." />
+        <parameter key="message_decline" value="Custa |TOTALCOST| moedas eh muito pra voce?" />
+    </parameters>
+</npc>

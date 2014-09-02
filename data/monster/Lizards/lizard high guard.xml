@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Lizard High Guard" nameDescription="a lizard high guard" race="blood" experience="1450" speed="340" manacost="0">
+<health now="1800" max="1800"/>
+<look type="337" corpse="11272"/>
+<targetchange interval="5000" chance="8"/>
+<strategy attack="100" defense="0"/>
+<flags>
+<flag summonable="0"/>
+<flag attackable="1"/>
+<flag hostile="1"/>
+<flag illusionable="1"/>
+<flag convinceable="0"/>
+<flag pushable="0"/>
+<flag canpushitems="1"/>
+<flag canpushcreatures="0"/>
+<flag targetdistance="1"/>
+<flag staticattack="90"/>
+<flag runonhealth="150"/>
+</flags>
+<attacks>
+<attack name="melee" interval="2000" skill="90" attack="50"/>
+<attack name="poison" interval="2000" chance="10" range="1" radius="1" target="1" min="-60" max="-120">
+<attribute key="areaEffect" value="poison"/>
+</attack>
+</attacks>
+	<defenses armor="25" defense="25">
+		<defense name="healing" interval="2000" chance="20" min="200" max="400">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+<elements>
+<element icePercent="-10"/>
+<element firePercent="45"/>
+</elements>
+<immunities>
+<immunity earth="1"/>
+<immunity invisible="1"/>
+</immunities>
+<voices interval="5000" chance="10">
+<voice sentence="Grzzzzzzz!"/>
+</voices>
+<loot>
+<item id="2148" countmax="90" chance="22500"/><!-- gold coin -->
+<item id="2148" countmax="70" chance="22500"/><!-- gold coin -->
+<item id="2148" countmax="60" chance="22500"/><!-- gold coin -->
+<item id="5881" chance="1000"/><!-- lizard scale -->
+<item id="1987" chance="100000"><!-- bag -->
+<inside>
+<item id="11332" chance="1000"/><!-- high guard flag -->
+<item id="2149" chance="2250"/><!-- small emerald -->
+<item id="11304" chance="1000"/><!-- zaoan legs -->
+<item id="11303" chance="2200"/><!-- zaoan shoes -->
+<item id="11239" chance="1200"/><!-- bunch of ripe dice -->
+<item id="5876" chance="1500"/><!-- lizard leather -->
+<item id="11206" chance="900"/><!-- red lantern-->
+<item id="11301" chance="300"/><!-- zaoan armor -->
+</inside>
+</item>
+</loot>
+</monster>

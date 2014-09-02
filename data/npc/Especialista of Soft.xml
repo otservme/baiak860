@@ -1,0 +1,7 @@
+<npc name="Especialista of Soft" script="data/npc/scripts/soft.lua" access="5" lookdir="1">
+<health now="1000" max="1000"/>
+<look type="133" head="95" body="86" legs="86" feet="38" addons="3"/>
+	<parameters>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|.I've been working hard these days in this project, I can now repair your dear friend {boots}." />
+	</parameters>
+</npc>

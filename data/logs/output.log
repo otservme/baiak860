@@ -1,0 +1,70 @@
+[20/6/2014 2:58:43] > Using SHA1 encryption
+[20/6/2014 2:58:44] >> Checking software version...failed checking - malformed file.
+[20/6/2014 2:58:44] >> Loading RSA key
+[20/6/2014 2:58:44] >> Starting SQL connection
+[20/6/2014 2:58:44] >> Running Database Manager
+[20/6/2014 2:58:44] > Optimizing table: account_viplist... [success]
+[20/6/2014 2:58:44] > Optimizing table: accounts... [success]
+[20/6/2014 2:58:44] > Optimizing table: bans... [success]
+[20/6/2014 2:58:44] > Optimizing table: environment_killers... [success]
+[20/6/2014 2:58:44] > Optimizing table: global_storage... [success]
+[20/6/2014 2:58:44] > Optimizing table: guild_invites... [success]
+[20/6/2014 2:58:44] > Optimizing table: guild_kills... [success]
+[20/6/2014 2:58:44] > Optimizing table: guild_ranks... [success]
+[20/6/2014 2:58:44] > Optimizing table: guild_wars... [success]
+[20/6/2014 2:58:44] > Optimizing table: guilds... [success]
+[20/6/2014 2:58:44] > Optimizing table: house_auctions... [success]
+[20/6/2014 2:58:44] > Optimizing table: house_data... [success]
+[20/6/2014 2:58:44] > Optimizing table: house_lists... [success]
+[20/6/2014 2:58:44] > Optimizing table: houses... [success]
+[20/6/2014 2:58:44] > Optimizing table: killers... [success]
+[20/6/2014 2:58:44] > Optimizing table: player_advances... [success]
+[20/6/2014 2:58:44] > Optimizing table: player_deaths... [success]
+[20/6/2014 2:58:44] > Optimizing table: player_depotitems... [success]
+[20/6/2014 2:58:44] > Optimizing table: player_items... [success]
+[20/6/2014 2:58:44] > Optimizing table: player_killers... [success]
+[20/6/2014 2:58:44] > Optimizing table: player_namelocks... [success]
+[20/6/2014 2:58:44] > Optimizing table: player_skills... [success]
+[20/6/2014 2:58:44] > Optimizing table: player_spells... [success]
+[20/6/2014 2:58:44] > Optimizing table: player_storage... [success]
+[20/6/2014 2:58:44] > Optimizing table: player_viplist... [success]
+[20/6/2014 2:58:44] > Optimizing table: players... [success]
+[20/6/2014 2:58:44] > Optimizing table: server_config... [success]
+[20/6/2014 2:58:44] > Optimizing table: server_motd... [success]
+[20/6/2014 2:58:44] > Optimizing table: server_record... [success]
+[20/6/2014 2:58:44] > Optimizing table: server_reports... [success]
+[20/6/2014 2:58:44] > Optimizing table: tile_items... [success]
+[20/6/2014 2:58:44] > Optimizing table: tiles... [success]
+[20/6/2014 2:58:44] > Optimizing table: z_changelog... [success]
+[20/6/2014 2:58:44] >> Loading items (OTB)
+[20/6/2014 2:58:44] >> Loading items (XML)
+[20/6/2014 2:58:44] [Warning - Items::loadFromXml] Unknown key value blocksolid
+[20/6/2014 2:58:44] [Warning - Items::loadFromXml] Unknown key value blocksolid
+[20/6/2014 2:58:44] >> Loading groups
+[20/6/2014 2:58:44] >> Loading vocations
+[20/6/2014 2:58:44] >> Loading outfits
+[20/6/2014 2:58:44] >> Loading chat channels
+[20/6/2014 2:58:44] >> Loading script systems
+[20/6/2014 2:58:44] >> Loading mods...
+[20/6/2014 2:58:44] > Loading hunted.xml... done.
+[20/6/2014 2:58:44] > 1 mods were loaded.
+[20/6/2014 2:58:44] >> Loading experience stages
+[20/6/2014 2:58:44] >> Loading monsters
+[20/6/2014 2:58:44] >> Loading map and spawns...
+[20/6/2014 2:58:44] > Map size: 2048x2048.
+[20/6/2014 2:58:44] > Map descriptions: 
+[20/6/2014 2:58:44] "Saved with Remere's Map Editor 2.2"
+[20/6/2014 2:58:44] "Baiak ChaitoSoft by Chadovisk Mapper"
+[20/6/2014 2:58:45] Duplicate uniqueId 8989
+[20/6/2014 2:58:45] > Map loading time: 1.183 seconds.
+[20/6/2014 2:58:46] > Data parsing time: 0.129 seconds.
+[20/6/2014 2:58:46] > Houses synchronization time: 0.085 seconds.
+[20/6/2014 2:58:46] > Content unserialization time: 0.403 seconds.
+[20/6/2014 2:58:46] >> Checking world type... Open PvP
+[20/6/2014 2:58:46] >> Initializing game state and binding services...
+[20/6/2014 2:58:46] [Warning - Monster::Monster] Unknown event name - monster2
+[20/6/2014 2:58:46] > Global IP address: 0.0.0.0
+[20/6/2014 2:58:46] > Bound ports: 7171	7172	
+[20/6/2014 2:58:46] >> Everything smells good, server is starting up...
+[20/6/2014 2:58:46] >> SEUOTSERV server Online!
+

@@ -1,0 +1,3 @@
+  -- >>> AutoServer Info Script by Cybermaster <<< --
+-- >>> Shortened by Elf <<< --
+local uptime, players = getWorldUptime(), getWorldCreatures(0)  local hours, minutes = math.floor(uptime / 3600), math.floor((uptime % 3600) / 60)   doBroadcastMessage("[ServerInfo] " .. hours .. " hour" .. (hours == 1 and "" or "s") .. " and " .. minutes .. " minute" .. (minutes == 1 and "" or "s") .. " online, " .. (c < 1 and "Nobody" or (c .. "player" .. (c > 1 and "s" or ""))) .. " online.", 23)  return true end 

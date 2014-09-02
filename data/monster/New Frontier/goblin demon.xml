@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Demon" nameDescription="a demon" race="blood" experience="25" speed="200" manacost="0">
+	<health now="50" max="50"/>
+	<look type="35" head="0" body="0" legs="0" feet="0" corpse="2940"/>
+	<targetchange interval="2000" chance="0"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="1"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="15"/>
+	</flags>
+	<attacks>
+    <attack name="melee" interval="2000" min="-0" max="-10"/>
+		<attack name="physical" interval="1000" chance="9" range="7" min="-0" max="-25">
+			<attribute key="shootEffect" value="smallstone"/>
+		</attack>
+	</attacks>
+	<defenses armor="6" defense="8"/>
+	<loot>
+	</loot>
+	<script> 
+	<event name="monster2"/> 
+    </script>
+</monster>

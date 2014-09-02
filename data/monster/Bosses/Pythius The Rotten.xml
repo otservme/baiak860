@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monster name="Pythius The Rotten" namedescription="a pythius the rotten" race="undead" experience="100" speed="300" manacost="0">
+<health now="8350" max="8350"/>
+<look type="231" corpse="6306"/>
+<targetchange interval="5000" chance="8"/>
+<strategy attack="100" defense="0"/>
+<flags>
+<flag summonable="0"/>
+<flag attackable="1"/>
+<flag hostile="1"/>
+<flag illusionable="1"/>
+<flag convinceable="0"/>
+<flag pushable="0"/>
+<flag canpushitems="1"/>
+<flag canpushcreatures="1"/>
+<flag targetdistance="1"/>
+<flag staticattack="90"/>
+<flag runonhealth="0"/>
+</flags>
+<script>
+<event name="PythiusDead"/>
+</script>
+<attacks>
+<attack name="melee" interval="2000" skill="95" attack="95"/>
+
+<attack name="fire" interval="2000" chance="20" range="7" radius="4" target="1" min="-300" max="-395">
+<attribute key="shooteffect" value="fire"/>
+<attribute key="areaeffect" value="redspark"/>
+</attack>
+
+<attack name="death" interval="3000" chance="20" range="7" min="-0" max="-600">
+<attribute key="shooteffect" value="suddendeath"/>
+</attack>
+
+<attack name="poison" interval="2000" chance="20" range="7" radius="4" target="1" min="-120" max="-390">
+<attribute key="shooteffect" value="poison"/>
+<attribute key="areaeffect" value="poison"/>
+</attack>
+
+<attack name="poison" interval="1000" chance="10" range="7" min="-50" max="-180">
+<attribute key="shooteffect" value="poison"/>
+<attribute key="areaeffect" value="poison"/>
+</attack>
+
+<attack name="fire" interval="4000" chance="25" length="8" spread="3" min="-500" max="-600">
+<attribute key="areaeffect" value="firearea"/>
+</attack>
+
+<attack name="poison" interval="2000" chance="23" length="8" spread="3" min="-200" max="-685">
+<attribute key="areaeffect" value="poison"/>
+</attack>
+
+<attack name="lifedrain" interval="3000" chance="25" length="8" spread="3" min="-300" max="-600">
+<attribute key="areaeffect" value="greenshimmer"/>
+</attack>
+
+</attacks>
+<defenses armor="35" defense="30">
+</defenses>
+<elements>
+<element physicalpercent="10"/>
+<element icepercent="10"/>
+<element holypercent="-10"/>
+</elements>
+<immunities>
+<immunity death="1"/>
+<immunity earth="1"/>
+<immunity fire="1"/>
+<immunity drown="1"/>
+<immunity lifedrain="1"/>
+<immunity paralyze="1"/>
+<immunity invisible="1"/>
+</immunities>
+<summons maxsummons="2">
+<summon name="undead gladiator" interval="1000" chance="8"/>
+</summons>
+<voices interval="5000" chance="10">
+<voice sentence="you'll never get my treasure!"/>
+
+</voices>
+
+</monster>

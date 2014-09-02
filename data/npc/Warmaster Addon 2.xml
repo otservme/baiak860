@@ -1,0 +1,4 @@
+<npc name="Warmaster Addon 2" script="data/npc/scripts/Warmaster Addon 2.lua" access="5" lookdir="1">
+    <health now="1000" max="1000"/>
+<look type="335" head="0" body="86" legs="0" feet="38" addons="2"/>
+</npc>  

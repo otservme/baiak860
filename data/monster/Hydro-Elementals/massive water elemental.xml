@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Massive Water Elemental" nameDescription="a Massive Water Elemental" race="undead" experience="1950" species="ice" speed="390" manacost="0">
+    <health now="2350" max="2350"/>
+    <look type="11" corpse="2016"/>
+    <targetchange interval="20000" chance="15"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="85"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="1"/>
+    </flags>
+<attacks>
+    <attack name="melee" interval="2000" skill="75" attack="65"/>
+<attack name="earth" interval="2000" chance="18" radius="6" target="0" min="-55" max="-320">
+	<attribute key="areaEffect" value="poison"/>
+    </attack>
+<attack name="ice" interval="2000" chance="21" radius="2" target="1" min="-290" max="-420">
+    <attribute key="areaEffect" value="bluebubble"/>
+	<attribute key="shootEffect" value="snowball"/>
+    </attack>
+    <attack name="ice" interval="1000" chance="12" range="7" target="1" min="-190" max="-230">
+    <attribute key="shootEffect" value="smallice"/>
+    <attribute key="areaEffect" value="iceattack"/>
+    </attack>
+</attacks>
+    <defenses armor="30" defense="30">
+    <defense name="healing" interval="2000" chance="15" min="90" max="150">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+<elements>
+		<element physicalPercent="50"/>
+		<element energyPercent="-15"/>
+		<element earthPercent="100"/>
+		<element icePercent="100"/>
+		<element holyPercent="30"/>
+		<element deathPercent="60"/>
+</elements>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="1"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  </monster>

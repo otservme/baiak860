@@ -1,0 +1,9 @@
+<npc name="Oldrak" script="data/npc/scripts/oldrak.lua" walkinterval="2000" floorchange="0" access="3" level="1" maglevel="1">
+<health now="150" max="150"/>
+<look type="57" head="115" body="113" legs="31" feet="38" addons="3" corpse="2212"/>
+<parameters>
+<parameter key="message_greet" value="Hello, |PLAYERNAME|!" />
+<parameter key="message_needmoremoney" value="Try again when you have more money."/>
+<parameter key="message_decline" value="Why would you tease me like that?"/>
+</parameters>
+</npc>

@@ -1,0 +1,9 @@
+<npc name="Jonny" script="data/npc/scripts/vampire.lua" floorchange="0" access="5" level="1" maglevel="1">
+	<health now="150" max="150"/>
+	<look type="151" head="114" body="12" legs="90" feet="115" addons="1" corpse="2212"/>
+	<parameters>
+        <parameter key="module_travel" value="1"/>
+	<parameter key="message_greet" value="Hello |PLAYERNAME|. Wanna you meet my ship rotes? If you say {travel}, I'll can help you!" />
+        <parameter key="travel_destinations" value="Blue City,485,45,13,100"/>
+	</parameters>
+</npc>

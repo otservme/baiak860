@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Elerian Pirate" script="data/npc/scripts/default.lua" walkinterval="0" floorchange="0">
+	<health now="150" max="150"/>
+	<look type="155" head="114" body="114" legs="0" feet="0" addons="3"/>
+    <parameters>
+        <parameter key="module_travel" value="1"/>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. If you don't know where to flow, say {travel}."/>
+        <parameter key="travel_destinations" value="carlin,721,599,7,50;ab'dendriel,1076,454,7,50;thais,447,1381,7,50;venore,1137,933,7,50;edron,1649,519,7,50
+edron,1649,519,7,100;ankrahmun,1635,975,7,100;port hope,1557,1331,7,100;new island,1560,2890,7,100;svargrond,653,205,7,100;yalahar,15026,15986,5,175;zao island,7772,8231,7,175;"/>
+    </parameters>
+</npc>

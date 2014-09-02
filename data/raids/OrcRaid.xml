@@ -1,0 +1,15 @@
+<raid>
+<announce delay="0" type="event" message="Orc activity near Great Kingdom reported! Beware!" />
+<announce delay="150000" type="event" message="The orcs are coming! Defend the east gate before its too late!" />
+<singlespawn delay="300000" name="Orc" x="1008" y="1005" z="7" />
+<singlespawn delay="300000" name="Orc Spearman" x="1008" y="1005" z="7" />
+<singlespawn delay="300000" name="Orc Warrior" x="1008" y="1005" z="7" />
+<singlespawn delay="300000" name="War Wolf" x="1008" y="1005" z="7" />
+<singlespawn delay="300000" name="Orc Rider" x="1008" y="1005" z="7" />
+<singlespawn delay="300000" name="Orc Berserker" x="1008" y="1005" z="7" />
+<singlespawn delay="300000" name="Orc Shaman" x="1008" y="1005" z="7" />
+<singlespawn delay="300000" name="Orc Leader" x="1008" y="1005" z="7" />
+<singlespawn delay="300000" name="Orc Warlord" x="1008" y="1005" z="7" />
+<singlespawn delay="300000" name="Orc Champion" x="1008" y="1005" z="7" />
+<singlespawn delay="300000" name="King Goshnar" x="1008" y="1005" z="7" />
+</raid>

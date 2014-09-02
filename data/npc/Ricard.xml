@@ -1,0 +1,9 @@
+<npc name="Ricard" script="data/npc/scripts/svargrond.lua" floorchange="0" access="5" level="1" maglevel="1">
+	<health now="150" max="150"/>
+	<look type="151" head="114" body="12" legs="90" feet="115" addons="1" corpse="2212"/>
+	<parameters>
+        <parameter key="module_travel" value="1"/>
+	<parameter key="message_greet" value="Hello |PLAYERNAME|. You don't know my ship rotes? say travel and I help you!" />
+        <parameter key="travel_destinations" value="Svargrond,631,706,7,100"/>
+	</parameters>
+</npc>

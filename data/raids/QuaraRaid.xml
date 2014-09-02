@@ -1,0 +1,10 @@
+<raid>
+<announce delay="0" type="event" message="Something is moving in the depths of the sea around Erico Bay." />
+<announce delay="150000" type="event" message="Unusual numerous Quara fin have been sighted in the seas around Erico Bay." />
+<announce delay="300000" type="event" message="Quaras emerged from the sea, Erico Bay is under attack!" />
+<singlespawn delay="300000" name="Quara Constrictor" x="1008" y="1005" z="7" />
+<singlespawn delay="300000" name="Quara Mantassin" x="1008" y="1005" z="7" />
+<singlespawn delay="300000" name="Quara Hydromancer" x="1008" y="1005" z="7" />
+<singlespawn delay="300000" name="Quara Pincher" x="1008" y="1005" z="7" />
+<singlespawn delay="300000" name="Quara Predator" x="1008" y="1005" z="7" />
+</raid>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Lizard Zaogun" nameDescription="a lizard zaogun" race="blood" experience="1700" speed="420" manacost="0">
+<health now="2955" max="2955"/>
+<look type="343" corpse="11278"/>
+<targetchange interval="5000" chance="8"/>
+<strategy attack="100" defense="0"/>
+<flags>
+<flag summonable="0"/>
+<flag attackable="1"/>
+<flag hostile="1"/>
+<flag illusionable="1"/>
+<flag convinceable="0"/>
+<flag pushable="0"/>
+<flag canpushitems="1"/>
+<flag canpushcreatures="0"/>
+<flag targetdistance="1"/>
+<flag staticattack="90"/>
+<flag runonhealth="150"/>
+</flags>
+<attacks>
+<attack name="melee" interval="2000" skill="55" attack="80"/>
+<attack name="poison" interval="2000" chance="25" range="1" radius="1" target="1" min="-220" max="-285">
+<attribute key="areaEffect" value="poison"/>
+</attack>
+</attacks>
+	<defenses armor="35" defense="35">
+		<defense name="healing" interval="1000" chance="18" min="200" max="400">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+<elements>
+<element physicalPercent="5"/>
+<element holyPercent="1"/>
+<element deathPercent="10"/>
+<element firePercent="45"/>
+<element energyPercent="20"/>
+<element icePercent="15"/>
+<element earthPercent="35"/>
+</elements>
+<immunities>
+<immunity earth="1"/>
+<immunity invisible="1"/>
+</immunities>
+<loot>
+<item id="2148" countmax="50" chance="12500"/><!-- gold coin -->
+<item id="2148" countmax="50" chance="12500"/><!-- gold coin -->
+<item id="11325" chance="4000"/><!-- zaogun shoulderplates -->
+<item id="7591" chance="10000"/><!-- great health pothion -->
+<item id="11200" chance="4500"/><!-- red lantern -->
+<item id="1987" chance="100000"><!-- bag -->
+<inside>
+<item id="7588" chance="7000"/><!-- strong health potion -->
+<item id="5881" chance="1500"/><!-- lizard scale -->
+<item id="2149" chance="2500"/><!-- small emerald -->
+<item id="11324" chance="1000"/><!-- zaogun flag -->
+<item id="11298" chance="500"/><!-- zaoan legs -->
+</inside>
+</item>
+</loot>
+</monster>

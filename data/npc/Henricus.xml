@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Henricus" script="data/npc/scripts/inquisa.lua" access="6" lookdir="2" walkinterval="25">
+<mana now="800" max="800"/>
+<health now="200" max="200"/>
+<look type="73" head="78" body="113" legs="114" feet="0"/>
+    <parameters>
+		<parameter key="message_greet" value="Seja bem vindo |PLAYERNAME|! Eu te dou a permissão para ir para inquisition fale {inquisition}." />
+    </parameters>
+</npc>

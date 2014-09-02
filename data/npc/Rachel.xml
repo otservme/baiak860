@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Rachel" script="data/npc/scripts/bpruneshop.lua" walkinterval="1000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="136" head="58" body="84" legs="86" feet="114" addons="0"/>
+    <parameters>
+        <parameter key="message_greet" value="Welcome |PLAYERNAME|! Whats your need? im selling rune and potion and for backpack rune just say(BUY BP SD ETC"/>
+        <parameter key="message_farewell" value="Good bye, |PLAYERNAME|."/>
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="job;" />
+        <parameter key="keyword_reply1" value="I am the head alchemist of Carlin. I keep the secret recipies of our ancestors. Besides, I {trade} mana and health potions, spellbooks, wands, rods and runes." />
+    </parameters>
+</npc>

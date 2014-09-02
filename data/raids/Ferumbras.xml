@@ -1,0 +1,6 @@
+<raid>
+<announce delay="0" type="event" message="xina e um viadim." />
+<announce delay="300000" type="event" message="xina da o cuzim." />
+<announce delay="600000" type="event" message="xina." />
+<singlespawn delay="600000" name="Ferumbras" x="518" y="141" z="4" />
+</raid>

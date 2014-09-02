@@ -1,0 +1,8 @@
+<npc name="Dove" script="data/npc/scripts/mail.lua" floorchange="0" access="5" level="1" maglevel="1">
+	<health now="150" max="150"/>
+	<look type="139" head="20" body="39" legs="45" feet="7" addons="3"/>
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="parcel,2595,15;label,2599,5" />
+	</parameters>
+</npc>

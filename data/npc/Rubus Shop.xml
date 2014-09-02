@@ -1,0 +1,9 @@
+<npc name="Rubus Shop" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="75" head="57" body="59" legs="40" feet="76" addons="0"/>
+-
+<parameters>
+<parameter key="module_shop" value="1"/>
+<parameter key="shop_buyable" value="Paladin Armor,8891,60000;Crystalline Armor,8878,40000;Divine Plate,8885,20000;Earthborn titan,8882,2000000;Fireborn Giant,8881,1000000;Frozen Plate,8887,100000;Lavos Armor,8877,100000;Master Archer's Armor,8888,1800000;Oceanborn,8884,100000;Robe of the Underworld,8890,1000000;Skullcracker armor,8889,300000;Windborn Colossus Armor,8883,100000;Blue Robe,2656,15000;Dragon Scale Armor,2492,50000;Golden Armor,2466,35000;Mpa,2472,500000;BoH,2195,35000;Soft Boots,6132,400000;Golden Boots,2646,2000000;Golden Helmet,2471,2500000;Demon Helmet,2493,150000;Royal Helmet,2498,40000;Dragon Scale Helmet,2406,1000000;Hat of the mad,2323,4000;Dragon Scale Legs,2469,3000000;Golden Legs,2470,150000;Demon Legs,2495,600000;Lightning legs,7895,15000;MasterMind Shield,2514,150000;Demon Shield,2520,40000;Great Shield,2522,10000000;Blessed Shield,2523,50000000;Tower Shield,2528,8000;Xazer Axe,7456,4000000;Xazer Sword,7391,5000000;Royal Crossbow,8851,50000;Yalahari Armor,9776,500000;Yalahari Legs,9777,500000;FireWalker Boots,9932,600000;Xazer Wand,8922,500000;Xazer rod,8910,500000; "/>
+</parameters>
+</npc>

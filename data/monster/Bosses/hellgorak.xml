@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Hellgorak" nameDescription="Hellgorak" race="blood" experience="10000" speed="360" manacost="0">
+<health now="40000" max="40000"/>
+<look type="12" head="19" body="96" legs="21" feet="81" corpse="6068"/>
+<targetchange interval="5000" chance="8"/>
+<strategy attack="100" defense="0"/>
+<flags>
+	<flag summonable="0"/>
+	<flag attackable="1"/>
+	<flag hostile="1"/>
+	<flag illusionable="0"/>
+	<flag convinceable="0"/>
+	<flag pushable="0"/>
+	<flag canpushitems="1"/>
+	<flag canpushcreatures="1"/>
+	<flag targetdistance="1"/>
+	<flag staticattack="85"/>
+	<flag runonhealth="0"/>
+</flags>
+<attacks>
+	<attack name="melee" interval="2000" skill="130" attack="130"/>
+	<attack name="energy" interval="1000" chance="11" length="8" spread="0" min="-250" max="-819">
+		<attribute key="areaEffect" value="purpleenergy"/>
+	</attack>
+	<attack name="manadrain" interval="2000" chance="14" radius="5" target="0" min="-90" max="-500">
+		<attribute key="areaEffect" value="stun"/>
+	</attack>
+	<attack name="fire" interval="1000" chance="11" radius="5" target="1" min="-50" max="-520">
+		<attribute key="areaEffect" value="firearea"/>
+	</attack>
+	<attack name="lifedrain" interval="2000" chance="5" radius="7" target="0" min="0" max="-150">
+		<attribute key="areaEffect" value="poff"/>
+	</attack>
+</attacks>
+<defenses armor="70" defense="65">
+	<defense name="healing" interval="1000" chance="11" min="400" max="900">
+		<attribute key="areaEffect" value="greenshimmer"/>
+	</defense>
+</defenses>
+<elements>
+	<element icePercent="50"/>
+	<element energyPercent="50"/>
+	<element earthPercent="50"/>
+	<element holyPercent="50"/>
+	<element deathPercent="50"/>
+	<element firePercent="50"/>
+	<element drownPercent="-50"/>
+</elements>
+<immunities>
+	<immunity lifedrain="1"/>
+	<immunity paralyze="1"/>
+	<immunity invisible="1"/>
+</immunities>
+<voices interval="5000" chance="0">
+	<voice sentence="??" yell="1"/>
+	<voice sentence="??" yell="1"/>
+</voices>
+<loot>
+<item id="2148" countmax="100" chance1="80000" chancemax="8"/>
+<item id="2148" countmax="100" chance1="20000" chancemax="10"/>
+<item id="2150" countmax="16" chance1="4000" chancemax="10"/> small amethyst
+<item id="2148" countmax="83" chance1="40000" chancemax="0"/>
+<item id="7388" chance="1200" /> --vile axe
+<item id="2130" chance="1200" /> --golden amulet
+<item id="2208" chance="3200" /> --axe ring
+<item id="8871" chance="3100" /> --focus cape
+<item id="2158" chance="1500" /> --blue gem
+<item id="2155" chance="1500" /> --green gem
+<item id="2210" chance="3200" /> --sword ring
+<item id="2208" chance="3200" /> --axe ring
+<item id="9970" countmax="13" chance1="6000" chancemax="0"/> small topaz
+<item id="6500" countmax="2" chance1="6000" chancemax="0"/> demonic ess
+<item id="2143" countmax="7" chance1="5000" chancemax="0"/> --White pearl
+<item id="2470" chance="2000" /> --golden legs
+<item id="7368" countmax="25" chance="8000"/> --stars
+<item id="2144" countmax="12" chance1="4000" chancemax="0"/> --black pearl
+<item id="2145" countmax="5" chance1="3000" chancemax="0"/> --small diamond
+<item id="2514" chance="5650"/> --mastermind shield
+<item id="2466" chance="8100"/> --golden armor
+<item id="7412" chance="4200" /> --butcher's axe
+<item id="7590" chance="7000"/> --great mana potion
+<item id="8904" chance="5000"/> --spellbook of prophercies
+<item id="7591" chance="8000"/> --great health potion
+<item id="1987" chance="100000">
+<inside>
+<item id="2148" countmax="100" chance1="80000" chancemax="0"/>
+<item id="2148" countmax="100" chance1="20000" chancemax="0"/>
+<item id="8901" chance="4400"/> --spellbook of warding
+<item id="2415" chance="600"/> --great axe
+<item id="2208" chance="3200" /> --axe ring
+<item id="8926" chance="900"/> --demonwing axe
+<item id="2645" chance="3500"/> --steel boots
+<item id="6500" countmax="2" chance1="6000" chancemax="0"/> demonic ess
+<item id="8902" chance="4500"/> spellbook of mind control
+<item id="2136" chance1="3000"/> demonbone amulet
+<item id="2488" chance1="4000"/> crown legs
+<item id="2143" countmax="7" chance1="7000" chancemax="0"/> --White pearl
+<item id="7590" chance="5000"/> --great mana potion
+<item id="8879" chance="3400"/> --voltage armor
+<item id="2146" countmax="18" chance1="9000" chancemax="0"/> --small sapphire
+<item id="2195" chance="5000"/> --boh
+<item id="8918" chance="1000"/> --spellbook of dark mysteries
+<item id="7591" chance="7000"/> --great health potion
+</inside>
+	</item>
+</loot>
+</monster>

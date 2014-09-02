@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Chris" script="data/npc/scripts/default.lua" floorchange="0" access="5" level="1" maglevel="1">
+	<health now="150" max="150"/>
+	<look type="152" head="0" body="113" legs="113" feet="0" addons="2"/>
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. I sell all kinds of backpack at the backpack of holding, To negotiate say {trade}" />
+		<parameter key="shop_buyable" value="" />
+		<parameter key="shop_buyable" value="backpack,1988,10;green backpack,1998,20;orange backpack,10519,20;red backpack,2000,20;golden backpack,2004,20;purple backpack,2001,20;grey backpack,2003,20;blue backpack,2002,20;expedition backpack,11235,1000;pirate backpack,5926,1000;minotaur backpack,11238,1000;dragon backpack,11237,10000;heart backpack,11115,1000;crown backpack,10522,10000;camouflage backpack,3940,1000;brocade backpack,9774,1000;fur backpack,7342,1000;beach backpack,5949,1000;moon backpack,10521,10000;demon backpack,10518,10000;fluffy santa backpack,11257,1000;" />
+	</parameters>
+</npc>

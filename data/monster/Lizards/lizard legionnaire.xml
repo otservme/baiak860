@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Lizard Legionnaire" nameDescription="a lizard legionnaire" race="blood" experience="1100" speed="220" manacost="0">
+<health now="1400" max="1400"/>
+<look type="338" corpse="11273"/>
+<targetchange interval="5000" chance="8"/>
+<strategy attack="100" defense="0"/>
+<flags>
+<flag summonable="0"/>
+<flag attackable="1"/>
+<flag hostile="1"/>
+<flag illusionable="1"/>
+<flag convinceable="0"/>
+<flag pushable="0"/>
+<flag canpushitems="1"/>
+<flag canpushcreatures="0"/>
+<flag targetdistance="1"/>
+<flag staticattack="90"/>
+<flag runonhealth="150"/>
+</flags>
+<attacks>
+<attack name="melee" interval="2000" skill="50" attack="50"/>
+<attack name="physical" interval="2000" chance="25" range="7" min="-0" max="-310">
+<attribute key="shootEffect" value="spear"/>
+</attack>
+</attacks>
+	<defenses armor="25" defense="25">
+	</defenses>
+<elements>
+<element firePercent="45"/>
+<element icePercent="-15"/>
+</elements>
+<immunities>
+<immunity earth="1"/>
+<immunity invisible="1"/>
+</immunities>
+<voices interval="5000" chance="10">
+<voice sentence="Tssss!"/>
+</voices>
+<loot>
+<item id="2148" countmax="76" chance="25500"/><!-- gold coin -->
+<item id="2148" countmax="60" chance="25500"/><!-- gold coin -->
+<item id="11334" chance="5000"/><!-- legionnaire flags -->
+<item id="7618" chance="12500"/><!-- health potion -->
+<item id="11336" chance="3000"/><!-- lizard trophy -->
+<item id="11335" chance="2250"/><!-- broken halberd -->
+<item id="1987" chance="100000"><!-- bag -->
+<inside>
+<item id="11323" chance="2000"/><!-- zaoan halberd -->
+<item id="11303" chance="1000"/><!-- zaoan shoes -->
+<item id="11305" chance="500"/><!-- drakinata -->
+<item id="11301" chance="450"/><!-- zaoan armor -->
+<item id="2145" chance="750"/><!-- small diamond -->
+<item id="11206" chance="300"/><!-- red lantern -->
+</inside>
+</item>
+</loot>
+</monster>

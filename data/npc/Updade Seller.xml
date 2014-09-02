@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Updade Seller" script="data/npc/scripts/default.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="335" head="0" body="0" legs="114" feet="114" addons="3"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_buyable" value="fluffy santa backpack,11257,10000;expedition backpack,11234,10000;heart backpack,11115,10000;lizard backpack,11236,10000;expedition bag,11235,10000;minotaur backpack,11237,10000;nightmare doll,11138,10000;witch hat,10569,50000;dragon scale boots,11114,100000;crystal boots,11113,50000;guardian boots,11234,50000;yalahari armor,9776,500000;yalahari piece legs,9777,500000;yalahari mask,9778,500000;spellweaver's robe,11349,50000;zoan robe,11350,100000;jade hat,11362,100000;zoan shoes,11297,50000;zoan legs,11298,100000;zoan sword,11301,1000000;zoan armor,11295,200000;zoan helmet,11296,200000;
+Baiak Sword,8931,1000000;Wand of Baiak,2184,1000000;Rod of Baiak,7958,1000000;Baiak of Star,7366,1000000;Baiak Armor,12603,1500000;Baiak Legs,12604,1500000;Baiak Shield,12605,1500000;Baiak Helemet,12606,1500000;Boots of Baiak,12607,1500000;Imperium Sword,12610,1500000;Solar axe,8925,1500000;baiak arrow,2352,1500000;staff of biaak,12609,1500000;baiak cap,12618,1500000;"/>
+	</parameters>
+1</npc>

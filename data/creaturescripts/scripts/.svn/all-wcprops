@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/private/forgottenserver/!svn/ver/2439/trunk/data/creaturescripts/scripts
+END
+mail.lua
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/private/forgottenserver/!svn/ver/1898/trunk/data/creaturescripts/scripts/mail.lua
+END
+guildmotd.lua
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/private/forgottenserver/!svn/ver/1965/trunk/data/creaturescripts/scripts/guildmotd.lua
+END
+login.lua
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/private/forgottenserver/!svn/ver/2262/trunk/data/creaturescripts/scripts/login.lua
+END
+skullcheck.lua
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/private/forgottenserver/!svn/ver/2439/trunk/data/creaturescripts/scripts/skullcheck.lua
+END
+reportbug.lua
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/private/forgottenserver/!svn/ver/2127/trunk/data/creaturescripts/scripts/reportbug.lua
+END
+idle.lua
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/private/forgottenserver/!svn/ver/2274/trunk/data/creaturescripts/scripts/idle.lua
+END

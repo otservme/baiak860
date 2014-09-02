@@ -1,0 +1,8 @@
+<raid>
+<announce delay="0" type="event" message="Elfs has been sighted near Settmour!" />
+<announce delay="150000" type="event" message="Prince Almirith has sent an hord of elves from the Elf Fortress." />
+<announce delay="300000" type="event" message="Settmour is under attack!" />
+<singlespawn delay="300000" name="Elf" x="1008" y="1005" z="7" />
+<singlespawn delay="300000" name="Elf Scout" x="1008" y="1005" z="7" />
+<singlespawn delay="300000" name="Elf Arcanist" x="1008" y="1005" z="7" />
+</raid>

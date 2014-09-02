@@ -1,0 +1,66 @@
+<raid>
+<announce delay="0" type="event" message="Many aggressive beasts are roaming west of Great Kingdom! Take care!" />
+<singlespawn delay="100000" name="Wolf" x="893" y="1000" z="7" />
+<singlespawn delay="100000" name="Wolf" x="888" y="1006" z="7" />
+<singlespawn delay="100000" name="Wolf" x="868" y="996" z="7" />
+<singlespawn delay="100000" name="Wolf" x="874" y="1002" z="7" />
+<singlespawn delay="100000" name="Wolf" x="893" y="995" z="7" />
+<singlespawn delay="100000" name="Wolf" x="889" y="1016" z="7" />
+<singlespawn delay="100000" name="Wolf" x="875" y="1015" z="7" />
+<singlespawn delay="100000" name="Wolf" x="848" y="1005" z="7" />
+<singlespawn delay="100000" name="Wolf" x="847" y="1014" z="7" />
+<singlespawn delay="100000" name="Wolf" x="860" y="982" z="7" />
+<singlespawn delay="100000" name="Wolf" x="851" y="981" z="7" />
+<singlespawn delay="100000" name="Wolf" x="846" y="993" z="7" />
+<singlespawn delay="100000" name="Wolf" x="842" y="1017" z="7" />
+<singlespawn delay="100000" name="Wolf" x="821" y="1009" z="7" />
+<singlespawn delay="100000" name="Wolf" x="823" y="1020" z="7" />
+<singlespawn delay="100000" name="Wolf" x="819" y="1026" z="7" />
+<singlespawn delay="100000" name="Wolf" x="807" y="1005" z="7" />
+<singlespawn delay="100000" name="Wolf" x="824" y="986" z="7" />
+<singlespawn delay="100000" name="Wolf" x="826" y="992" z="7" />
+<singlespawn delay="100000" name="Wolf" x="855" y="971" z="7" />
+<singlespawn delay="100000" name="Wolf" x="817" y="959" z="7" />
+<singlespawn delay="100000" name="Wolf" x="824" y="956" z="7" />
+<singlespawn delay="100000" name="Wolf" x="833" y="939" z="7" />
+<singlespawn delay="100000" name="Wolf" x="834" y="941" z="7" />
+<singlespawn delay="100000" name="Wolf" x="792" y="991" z="7" />
+<singlespawn delay="100000" name="Wolf" x="795" y="994" z="7" />
+<singlespawn delay="100000" name="Wolf" x="827" y="1035" z="7" />
+<singlespawn delay="100000" name="Wolf" x="814" y="1038" z="7" />
+<singlespawn delay="100000" name="Wolf" x="814" y="1031" z="7" />
+<singlespawn delay="100000" name="Wolf" x="824" y="1030" z="7" />
+<singlespawn delay="100000" name="War Wolf" x="811" y="1014" z="7" />
+<singlespawn delay="100000" name="War Wolf" x="836" y="1024" z="7" />
+<singlespawn delay="100000" name="War Wolf" x="872" y="986" z="7" />
+<singlespawn delay="100000" name="War Wolf" x="840" y="991" z="7" />
+<singlespawn delay="100000" name="War Wolf" x="830" y="976" z="7" />
+<singlespawn delay="100000" name="War Wolf" x="849" y="992" z="7" />
+<singlespawn delay="100000" name="War Wolf" x="800" y="1015" z="7" />
+<singlespawn delay="100000" name="War Wolf" x="864" y="1005" z="7" />
+<singlespawn delay="100000" name="War Wolf" x="881" y="1022" z="7" />
+<singlespawn delay="100000" name="Bear" x="885" y="1004" z="7" />
+<singlespawn delay="100000" name="Bear" x="895" y="1009" z="7" />
+<singlespawn delay="100000" name="Bear" x="885" y="999" z="7" />
+<singlespawn delay="100000" name="Bear" x="893" y="1001" z="7" />
+<singlespawn delay="100000" name="Bear" x="874" y="997" z="7" />
+<singlespawn delay="100000" name="Bear" x="871" y="1009" z="7" />
+<singlespawn delay="100000" name="Bear" x="867" y="991" z="7" />
+<singlespawn delay="100000" name="Bear" x="886" y="1016" z="7" />
+<singlespawn delay="100000" name="Bear" x="846" y="996" z="7" />
+<singlespawn delay="100000" name="Bear" x="864" y="985" z="7" />
+<singlespawn delay="100000" name="Bear" x="825" y="956" z="7" />
+<singlespawn delay="100000" name="Bear" x="826" y="961" z="7" />
+<singlespawn delay="100000" name="Bear" x="834" y="957" z="7" />
+<singlespawn delay="100000" name="Bear" x="825" y="945" z="7" />
+<singlespawn delay="100000" name="Bear" x="840" y="957" z="7" />
+<singlespawn delay="100000" name="Bear" x="820" y="993" z="7" />
+<singlespawn delay="100000" name="Bear" x="807" y="997" z="7" />
+<singlespawn delay="100000" name="Bear" x="816" y="1008" z="7" />
+<singlespawn delay="100000" name="Bear" x="822" y="1006" z="7" />
+<singlespawn delay="100000" name="Bear" x="811" y="1009" z="7" />
+<singlespawn delay="100000" name="Bear" x="807" y="1023" z="7" />
+<singlespawn delay="100000" name="Bear" x="822" y="1026" z="7" />
+<singlespawn delay="100000" name="Bear" x="829" y="1009" z="7" />
+<singlespawn delay="100000" name="Bear" x="851" y="1008" z="7" />
+</raid>

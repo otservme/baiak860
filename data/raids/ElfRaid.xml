@@ -1,0 +1,125 @@
+<raid>
+<announce delay="0" type="event" message="Elfs has been sighted near Settmour!" />
+<announce delay="150000" type="event" message="Prince Almirith has sent an horde of elves from the Elf Fortress against Settmour." />
+<announce delay="300000" type="event" message="Settmour is under attack!" />
+<singlespawn delay="300000" name="Elf" x="770" y="1002" z="7" />
+<singlespawn delay="300000" name="Elf" x="777" y="1004" z="7" />
+<singlespawn delay="300000" name="Elf" x="782" y="1005" z="7" />
+<singlespawn delay="300000" name="Elf" x="770" y="1010" z="7" />
+<singlespawn delay="300000" name="Elf" x="764" y="1012" z="7" />
+<singlespawn delay="300000" name="Elf" x="760" y="1024" z="7" />
+<singlespawn delay="300000" name="Elf" x="760" y="1019" z="7" />
+<singlespawn delay="300000" name="Elf" x="751" y="1046" z="7" />
+<singlespawn delay="300000" name="Elf" x="752" y="1046" z="7" />
+<singlespawn delay="300000" name="Elf" x="746" y="1049" z="7" />
+<singlespawn delay="300000" name="Elf" x="759" y="998" z="7" />
+<singlespawn delay="300000" name="Elf" x="762" y="1000" z="7" />
+<singlespawn delay="300000" name="Elf" x="750" y="1036" z="6" />
+<singlespawn delay="300000" name="Elf" x="740" y="1020" z="6" />
+<singlespawn delay="300000" name="Elf" x="761" y="1030" z="6" />
+<singlespawn delay="300000" name="Elf" x="761" y="1033" z="6" />
+<singlespawn delay="300000" name="Elf" x="758" y="1027" z="6" />
+<singlespawn delay="300000" name="Elf" x="734" y="1053" z="6" />
+<singlespawn delay="300000" name="Elf Scout" x="771" y="1004" z="7" />
+<singlespawn delay="300000" name="Elf Scout" x="765" y="1001" z="7" />
+<singlespawn delay="300000" name="Elf Scout" x="760" y="1000" z="7" />
+<singlespawn delay="300000" name="Elf Scout" x="765" y="1000" z="7" />
+<singlespawn delay="300000" name="Elf Scout" x="773" y="1005" z="7" />
+<singlespawn delay="300000" name="Elf Scout" x="761" y="1013" z="7" />
+<singlespawn delay="300000" name="Elf Scout" x="769" y="1011" z="7" />
+<singlespawn delay="300000" name="Elf Scout" x="770" y="1008" z="7" />
+<singlespawn delay="300000" name="Elf Scout" x="773" y="1008" z="7" />
+<singlespawn delay="300000" name="Elf Scout" x="762" y="1024" z="7" />
+<singlespawn delay="300000" name="Elf Scout" x="762" y="1018" z="7" />
+<singlespawn delay="300000" name="Elf Scout" x="763" y="1022" z="7" />
+<singlespawn delay="300000" name="Elf Scout" x="759" y="1032" z="7" />
+<singlespawn delay="300000" name="Elf Scout" x="749" y="1046" z="7" />
+<singlespawn delay="300000" name="Elf Scout" x="752" y="1041" z="7" />
+<singlespawn delay="300000" name="Elf Scout" x="757" y="1045" z="7" />
+<singlespawn delay="300000" name="Elf Scout" x="752" y="1041" z="7" />
+<singlespawn delay="300000" name="Elf Scout" x="752" y="1049" z="7" />
+<singlespawn delay="300000" name="Elf Scout" x="747" y="1048" z="7" />
+<singlespawn delay="300000" name="Elf Scout" x="758" y="1049" z="6" />
+<singlespawn delay="300000" name="Elf Scout" x="756" y="1048" z="6" />
+<singlespawn delay="300000" name="Elf Scout" x="761" y="1029" z="6" />
+<singlespawn delay="300000" name="Elf Scout" x="761" y="1034" z="6" />
+<singlespawn delay="300000" name="Elf Scout" x="762" y="1031" z="6" />
+<singlespawn delay="300000" name="Elf Scout" x="758" y="1028" z="6" />
+<singlespawn delay="300000" name="Elf Scout" x="747" y="1037" z="6" />
+<singlespawn delay="300000" name="Elf Scout" x="737" y="1038" z="6" />
+<singlespawn delay="300000" name="Elf Scout" x="724" y="1054" z="6" />
+<singlespawn delay="300000" name="Elf Arcanist" x="767" y="1002" z="7" />
+<singlespawn delay="300000" name="Elf Arcanist" x="760" y="998" z="7" />
+<singlespawn delay="300000" name="Elf Arcanist" x="753" y="997" z="7" />
+<singlespawn delay="300000" name="Elf Arcanist" x="766" y="1012" z="7" />
+<singlespawn delay="300000" name="Elf Arcanist" x="762" y="1020" z="7" />
+<singlespawn delay="300000" name="Elf Arcanist" x="761" y="1023" z="7" />
+<singlespawn delay="300000" name="Elf Arcanist" x="761" y="1026" z="6" />
+<singlespawn delay="300000" name="Elf Arcanist" x="757" y="1043" z="6" />
+<singlespawn delay="300000" name="Elf Arcanist" x="755" y="1036" z="6" />
+<singlespawn delay="300000" name="Elf Arcanist" x="758" y="1036" z="6" />
+<singlespawn delay="300000" name="Elf Arcanist" x="762" y="1036" z="6" />
+<singlespawn delay="300000" name="Elf Arcanist" x="748" y="1045" z="7" />
+<singlespawn delay="300000" name="Elf Arcanist" x="752" y="1043" z="7" />
+<singlespawn delay="300000" name="Elf Arcanist" x="750" y="1036" z="7" />
+<singlespawn delay="300000" name="Elf" x="770" y="1002" z="7" />
+<singlespawn delay="300000" name="Elf" x="777" y="1004" z="7" />
+<singlespawn delay="300000" name="Elf" x="782" y="1005" z="7" />
+<singlespawn delay="300000" name="Elf" x="770" y="1010" z="7" />
+<singlespawn delay="300000" name="Elf" x="764" y="1012" z="7" />
+<singlespawn delay="300000" name="Elf" x="760" y="1024" z="7" />
+<singlespawn delay="300000" name="Elf" x="760" y="1019" z="7" />
+<singlespawn delay="300000" name="Elf" x="751" y="1046" z="7" />
+<singlespawn delay="300000" name="Elf" x="752" y="1046" z="7" />
+<singlespawn delay="300000" name="Elf" x="746" y="1049" z="7" />
+<singlespawn delay="300000" name="Elf" x="759" y="998" z="7" />
+<singlespawn delay="300000" name="Elf" x="762" y="1000" z="7" />
+<singlespawn delay="300000" name="Elf" x="750" y="1036" z="6" />
+<singlespawn delay="300000" name="Elf" x="740" y="1020" z="6" />
+<singlespawn delay="300000" name="Elf" x="761" y="1030" z="6" />
+<singlespawn delay="300000" name="Elf" x="761" y="1033" z="6" />
+<singlespawn delay="300000" name="Elf" x="758" y="1027" z="6" />
+<singlespawn delay="300000" name="Elf" x="734" y="1053" z="6" />
+<singlespawn delay="500000" name="Elf Scout" x="771" y="1004" z="7" />
+<singlespawn delay="500000" name="Elf Scout" x="765" y="1001" z="7" />
+<singlespawn delay="500000" name="Elf Scout" x="760" y="1000" z="7" />
+<singlespawn delay="500000" name="Elf Scout" x="765" y="1000" z="7" />
+<singlespawn delay="500000" name="Elf Scout" x="773" y="1005" z="7" />
+<singlespawn delay="500000" name="Elf Scout" x="761" y="1013" z="7" />
+<singlespawn delay="500000" name="Elf Scout" x="769" y="1011" z="7" />
+<singlespawn delay="500000" name="Elf Scout" x="770" y="1008" z="7" />
+<singlespawn delay="500000" name="Elf Scout" x="773" y="1008" z="7" />
+<singlespawn delay="500000" name="Elf Scout" x="762" y="1024" z="7" />
+<singlespawn delay="500000" name="Elf Scout" x="762" y="1018" z="7" />
+<singlespawn delay="500000" name="Elf Scout" x="763" y="1022" z="7" />
+<singlespawn delay="500000" name="Elf Scout" x="759" y="1032" z="7" />
+<singlespawn delay="500000" name="Elf Scout" x="749" y="1046" z="7" />
+<singlespawn delay="500000" name="Elf Scout" x="752" y="1041" z="7" />
+<singlespawn delay="500000" name="Elf Scout" x="757" y="1045" z="7" />
+<singlespawn delay="500000" name="Elf Scout" x="752" y="1041" z="7" />
+<singlespawn delay="500000" name="Elf Scout" x="752" y="1049" z="7" />
+<singlespawn delay="500000" name="Elf Scout" x="747" y="1048" z="7" />
+<singlespawn delay="500000" name="Elf Scout" x="758" y="1049" z="6" />
+<singlespawn delay="500000" name="Elf Scout" x="756" y="1048" z="6" />
+<singlespawn delay="500000" name="Elf Scout" x="761" y="1029" z="6" />
+<singlespawn delay="500000" name="Elf Scout" x="761" y="1034" z="6" />
+<singlespawn delay="500000" name="Elf Scout" x="762" y="1031" z="6" />
+<singlespawn delay="500000" name="Elf Scout" x="758" y="1028" z="6" />
+<singlespawn delay="500000" name="Elf Scout" x="747" y="1037" z="6" />
+<singlespawn delay="500000" name="Elf Scout" x="737" y="1038" z="6" />
+<singlespawn delay="500000" name="Elf Scout" x="724" y="1054" z="6" />
+<singlespawn delay="500000" name="Elf Arcanist" x="767" y="1002" z="7" />
+<singlespawn delay="500000" name="Elf Arcanist" x="760" y="998" z="7" />
+<singlespawn delay="500000" name="Elf Arcanist" x="753" y="997" z="7" />
+<singlespawn delay="500000" name="Elf Arcanist" x="766" y="1012" z="7" />
+<singlespawn delay="500000" name="Elf Arcanist" x="762" y="1020" z="7" />
+<singlespawn delay="500000" name="Elf Arcanist" x="761" y="1023" z="7" />
+<singlespawn delay="500000" name="Elf Arcanist" x="761" y="1026" z="6" />
+<singlespawn delay="500000" name="Elf Arcanist" x="757" y="1043" z="6" />
+<singlespawn delay="500000" name="Elf Arcanist" x="755" y="1036" z="6" />
+<singlespawn delay="500000" name="Elf Arcanist" x="758" y="1036" z="6" />
+<singlespawn delay="500000" name="Elf Arcanist" x="762" y="1036" z="6" />
+<singlespawn delay="500000" name="Elf Arcanist" x="748" y="1045" z="7" />
+<singlespawn delay="500000" name="Elf Arcanist" x="752" y="1043" z="7" />
+<singlespawn delay="500000" name="Elf Arcanist" x="750" y="1036" z="7" />
+</raid>

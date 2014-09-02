@@ -1,0 +1,9 @@
+<raid>
+<announce delay="0" type="event" message="Unknown ships are sighted south of Erico Bay." />
+<announce delay="150000" type="event" message="The ships that approach Erico Bay from the south have raised the pirate flag! Hide or grab your weapons to fight." />
+<announce delay="300000" type="event" message="Pirates have invaded Erico Bay!" />
+<singlespawn delay="300000" name="Pirate Marauder" x="1008" y="1005" z="7" />
+<singlespawn delay="300000" name="Pirate Cutthroat" x="1008" y="1005" z="7" />
+<singlespawn delay="300000" name="Pirate Buccaneer" x="1008" y="1005" z="7" />
+<singlespawn delay="300000" name="Pirate Corsair" x="1008" y="1005" z="7" />
+</raid>

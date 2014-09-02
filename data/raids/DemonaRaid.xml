@@ -1,0 +1,37 @@
+<raid>
+<announce delay="0" type="event"  message="Demona is shaking, prepare for the worst." />
+<announce delay="150000" type="event" message="Diablo is about to use evil souls to release hell at Demona." />
+<announce delay="300000" type="event" message="Demona has turned into hell!" />
+<singlespawn delay="300000" name="Fire Devil" x="1087" y="521" z="7" />
+<singlespawn delay="300000" name="Fire Devil" x="1085" y="519" z="7" />
+<singlespawn delay="300000" name="Fire Devil" x="1099" y="506" z="7" />
+<singlespawn delay="300000" name="Fire Devil" x="1119" y="476" z="7" />
+<singlespawn delay="300000" name="Fire Devil" x="1142" y="461" z="7" />
+<singlespawn delay="300000" name="Fire Devil" x="1129" y="461" z="7" />
+<singlespawn delay="300000" name="Fire Devil" x="1139" y="476" z="7" />
+<singlespawn delay="300000" name="Fire Elemental" x="1122" y="456" z="7" />
+<singlespawn delay="300000" name="Fire Elemental" x="1128" y="453" z="7" />
+<singlespawn delay="300000" name="Fire Elemental" x="1137" y="454" z="7" />
+<singlespawn delay="300000" name="Fire Elemental" x="1140" y="458" z="7" />
+<singlespawn delay="300000" name="Fire Elemental" x="1129" y="478" z="7" />
+<singlespawn delay="300000" name="Fire Elemental" x="1134" y="477" z="7" />
+<singlespawn delay="300000" name="Fire Elemental" x="1131" y="470" z="7" />
+<singlespawn delay="300000" name="Fire Elemental" x="1098" y="499" z="7" />
+<singlespawn delay="300000" name="Fire Elemental" x="1122" y="509" z="7" />
+<singlespawn delay="300000" name="Fire Elemental" x="1144" y="513" z="7" />
+<singlespawn delay="300000" name="Fire Elemental" x="1079" y="511" z="7" />
+<singlespawn delay="300000" name="Warlock" x="1086" y="512" z="7" />
+<singlespawn delay="300000" name="Warlock" x="1111" y="515" z="7" />
+<singlespawn delay="300000" name="Warlock" x="1111" y="479" z="7" />
+<singlespawn delay="300000" name="Warlock" x="1115" y="482" z="7" />
+<singlespawn delay="300000" name="Warlock" x="1148" y="462" z="7" />
+<singlespawn delay="300000" name="Warlock" x="1146" y="449" z="7" />
+<singlespawn delay="300000" name="Warlock" x="1077" y="505" z="7" />
+<singlespawn delay="300000" name="Warlock" x="1072" y="514" z="7" />
+<singlespawn delay="300000" name="Demon" x="1086" y="528" z="7" />
+<singlespawn delay="300000" name="Demon" x="1119" y="520" z="7" />
+<singlespawn delay="300000" name="Demon" x="1114" y="499" z="7" />
+<singlespawn delay="300000" name="Demon" x="1136" y="468" z="7" />
+<singlespawn delay="300000" name="Demon" x="1135" y="459" z="7" />
+<singlespawn delay="300000" name="Demon" x="1145" y="458" z="7" />
+</raid>

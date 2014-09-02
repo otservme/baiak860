@@ -1,0 +1,26 @@
+	<action fromid="10264" toid="10266" event="script" value="other/windows.lua"/>
+	<action fromid="10265" toid="10267" event="script" value="other/windows.lua"/>
+	<action fromid="10487" toid="10489" event="script" value="other/windows.lua"/>
+	<action fromid="10488" toid="10490" event="script" value="other/windows.lua"/>
+
+, [10490] = 10488, [10488] = 10490
+
+	<action itemid="7443" event="script" value="liquids/bullseye_potion.lua" allowfaruse="1"/>
+
+
+	<action itemid="10469" event="function" value="increaseItemId"/>
+	<action itemid="10470" event="function" value="decreaseItemId"/>
+	<action itemid="10471" event="function" value="increaseItemId"/>
+	<action itemid="10472" event="function" value="decreaseItemId"/>
+	<action itemid="10473" event="function" value="increaseItemId"/>
+	<action itemid="10474" event="function" value="decreaseItemId"/>
+	<action itemid="10475" event="function" value="increaseItemId"/>
+	<action itemid="10476" event="function" value="decreaseItemId"/>
+	<action itemid="10478" event="function" value="increaseItemId"/>
+	<action itemid="10479" event="function" value="decreaseItemId"/>
+	<action itemid="10480" event="function" value="increaseItemId"/>
+	<action itemid="10481" event="function" value="decreaseItemId"/>
+	<action itemid="10482" event="function" value="increaseItemId"/>
+	<action itemid="10483" event="function" value="decreaseItemId"/>
+	<action itemid="10484" event="function" value="increaseItemId"/>
+	<action itemid="10485" event="function" value="decreaseItemId"/>

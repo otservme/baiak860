@@ -1,0 +1,40 @@
+9
+
+dir
+2499
+http://svn.otland.net/private/forgottenserver/trunk/data/actions/scripts
+http://svn.otland.net/private/forgottenserver
+
+
+
+2009-07-29T18:12:18.992507Z
+2475
+kaczooh
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+c161f52b-5830-4e7a-bee0-5dea2c17262e
+
+tools
+dir
+
+other
+dir
+
+quests
+dir
+
+liquids
+dir
+

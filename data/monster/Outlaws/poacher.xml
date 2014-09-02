@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="poacher" nameDescription="a poacher" race="blood" experience="150" speed="215" manacost="0">
+  <health now="150" max="150"/>
+  <look type="129" head="95" body="116" legs="121" feet="115" addons="1" corpse="6080"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+   <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="4"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="10"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="20" attack="20"/>
+    <attack name="physical" interval="2000" chance="18" range="7" min="0" max="-35">
+      <attribute key="shootEffect" value="arrow"/>
+    </attack>
+  </attacks>
+  <defenses armor="8" defense="10"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="You will not live to tell anyone!"/>
+	<voice sentence="You are my game today!"/>
+  </voices>
+  <loot>
+    <item id="2649" countmax="2" chance1="100000" chancemax="0"/>
+    <item id="2461" chance="10000"/>
+    <item id="2649" chance="10000"/>
+    <item id="2671" countmax="2" chance1="20000" chancemax="0"/>
+    <item id="1987" chance="100000">
+      <inside>
+        <item id="2456" chance="4444"/>
+        <item id="2544" countmax="17" chance1="10000" chancemax="0"/>
+        <item id="2545" countmax="3" chance1="10000" chancemax="0"/>
+        <item id="2050" chance="20000"/>
+		<item id="2579" chance="2222"/>
+      </inside>
+    </item>
+  </loot>
+</monster>

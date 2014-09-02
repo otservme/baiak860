@@ -1,0 +1,7 @@
+<raid>
+<announce delay="0" type="event" message="Unusual frequent scarab sightings at the gates of DESERT." />
+<announce delay="150000" message="Ancient scarabs are leading an attack on DESERT." />
+<singlespawn delay="300000" name="Larva" x="1008" y="1005" z="7" />
+<singlespawn delay="300000" name="Scarab" x="1008" y="1005" z="7" />
+<singlespawn delay="300000" name="Ancient Scarab" x="1008" y="1005" z="7" />
+</raid>

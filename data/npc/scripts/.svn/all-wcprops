@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/private/forgottenserver/!svn/ver/2443/trunk/data/npc/scripts
+END
+ruby.lua
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/private/forgottenserver/!svn/ver/47/trunk/data/npc/scripts/ruby.lua
+END
+bootmaker.lua
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/private/forgottenserver/!svn/ver/2443/trunk/data/npc/scripts/bootmaker.lua
+END
+furniture.lua
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/private/forgottenserver/!svn/ver/2286/trunk/data/npc/scripts/furniture.lua
+END
+default.lua
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/private/forgottenserver/!svn/ver/8/trunk/data/npc/scripts/default.lua
+END
+example82.lua
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/private/forgottenserver/!svn/ver/1898/trunk/data/npc/scripts/example82.lua
+END
+oracle.lua
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/private/forgottenserver/!svn/ver/652/trunk/data/npc/scripts/oracle.lua
+END
+promotion.lua
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/private/forgottenserver/!svn/ver/260/trunk/data/npc/scripts/promotion.lua
+END
+addons.lua
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/private/forgottenserver/!svn/ver/1898/trunk/data/npc/scripts/addons.lua
+END
+bless.lua
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/private/forgottenserver/!svn/ver/1448/trunk/data/npc/scripts/bless.lua
+END
+cityguard.lua
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/private/forgottenserver/!svn/ver/1898/trunk/data/npc/scripts/cityguard.lua
+END
+runes.lua
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/private/forgottenserver/!svn/ver/1898/trunk/data/npc/scripts/runes.lua
+END
+loot.lua
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/private/forgottenserver/!svn/ver/8/trunk/data/npc/scripts/loot.lua
+END

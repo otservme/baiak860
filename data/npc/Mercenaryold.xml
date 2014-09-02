@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Mercenaryold" script="data/npc/scripts/default.lua" walkinterval="0" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="289" head="57" body="78" legs="39" feet="116" addons="2"/>
+	<parameters>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|, I am a mercenary and I am looking for brave warriors to help me in some {stuff}."/>
+	</parameters>
+</npc>
