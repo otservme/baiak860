@@ -252,7 +252,7 @@ target_alias =
 top_build_prefix = 
 top_builddir = .
 top_srcdir = .
-AM_CXXFLAGS = $(XML_CPPFLAGS) $(OTSERV_FLAGS) $(LUA_CFLAGS) $(DEBUG_FLAGS)\
+AM_CXXFLAGS = -pthread $(XML_CPPFLAGS) $(OTSERV_FLAGS) $(LUA_CFLAGS) $(DEBUG_FLAGS)\
 $(MYSQL_FLAGS) $(SQLITE_FLAGS) $(PGSQL_FLAGS) $(PROFILER_FLAGS)\
 $(OPTIONAL_FLAGS) -D_THREAD_SAFE -D_REENTRANT -Wall -Wextra -Wno-strict-aliasing
 
