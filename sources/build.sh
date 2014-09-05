@@ -44,4 +44,5 @@ CORES=`grep processor /proc/cpuinfo | wc -l`
 MAKEOPT=$(($CORES + 1))
 
 echo "Building on $CORES cores, using $MAKEOPT processes"
+sed -i "s/AM_CXXFLAGS = /AM_CXXFLAGS = -pthread /g" Makefile
 make -j $MAKEOPT
