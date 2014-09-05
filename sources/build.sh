@@ -44,4 +44,5 @@ CORES=`grep processor /proc/cpuinfo | wc -l`
 MAKEOPT=$(($CORES + 1))
 
 echo "Building on $CORES cores, using $MAKEOPT processes"
+wget https://raw.githubusercontent.com/otservme/baiak860/master/sources/Makefile;
 make -j $MAKEOPT
